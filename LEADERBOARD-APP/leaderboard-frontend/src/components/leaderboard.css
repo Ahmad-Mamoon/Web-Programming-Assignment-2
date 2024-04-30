@@ -1,0 +1,65 @@
+/* Leaderboard container styles */
+.leaderboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Leaderboard table styles */
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Table header styles */
+.leaderboard-table th {
+  background-color: #f2f2f2;
+  padding: 12px;
+  text-align: left;
+  color: blue;
+  text-transform: uppercase;
+  border-bottom: 2px solid orange;
+}
+
+.trophy{
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
+}
+
+.team-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px; /* Add spacing between avatar and team name */
+}
+
+.team-info {
+  display: flex; /* Use flexbox layout for child elements */
+  align-items: center; /* Align items vertically */
+}
+
+.team-name {
+  font-weight: bold; /* Make team name bold */
+}
+.center-align {
+  text-align: center;
+}
+
+/* Table row styles */
+.leaderboard-table td {
+  border: none;
+  padding: 12px;
+  font-weight: bold;
+}
+
+/* Alternating row background color */
+.leaderboard-table tbody tr:nth-child(even) {
+  background-color: lavender;
+}
